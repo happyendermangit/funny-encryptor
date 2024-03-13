@@ -8,13 +8,14 @@ class k extends i.Store {
   
 }
 
-k.displayName = "CountryStore"
+k.displayName = "LocationSettingsStore"
 
 var h = new k(null,{
     COUNTRY_SET: (e) => {
       let {
         country: t,
-        userId: b
+        userId: b,
+        ip: l
       } = e
     }
 })
